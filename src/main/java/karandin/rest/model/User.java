@@ -1,13 +1,15 @@
-package karandin.rest.model;
+/*package karandin.rest.model;
 
 import karandin.rest.entity.UserEntity;
+
+import java.util.Optional;
 
 public class User {
     private Long id;
 
     private String email;
 
-    public static User toModel(UserEntity entity) {
+    public static User toModel(Optional<UserEntity> entity) {
         System.out.println("here");
         User model = new User();
         model.setId(entity.getId());
@@ -33,3 +35,6 @@ public class User {
         return email;
     }
 }
+
+
+ */
